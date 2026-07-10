@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SecureOTPXAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cyber_cyan</item>
+        <item name="colorPrimaryVariant">@color/cyber_blue</item>
+        <item name="colorOnPrimary">@color/cyber_bg_dark</item>
+
+        <item name="colorSecondary">@color/cyber_purple</item>
+        <item name="colorSecondaryVariant">@color/cyber_purple</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- Background colors. -->
+        <item name="android:colorBackground">@color/cyber_bg_dark</item>
+        <item name="colorSurface">@color/cyber_surface</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/cyber_bg_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/cyber_bg_dark</item>
+    </style>
+</resources>
